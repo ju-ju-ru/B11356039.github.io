@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: green;
+            text-align: center;
+            font-size:36px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var num=prompt("請輸入成績:");
+        switch(Math.floor(num/10)){
+            case 10:
+            document.write("<h1>及格，超強，好好保持!</h1>");
+                break;
+            case 9:
+            document.write("<h1>及格，超強，好好保持!</h1>");
+                break;
+            case 6:
+                document.write("<h1>及格，但有進步空間!</h1>");
+                break;
+            case 7:
+                document.write("<h1>及格，程度達到標準!</h1>");
+                    break;
+            case 8:
+                document.write("<h1>及格，接近完美!</h1>");
+                break;
+            default: 
+                
+                document.write("<h1>不及格，請再加強!</h1>");
+                break;
+        }
+    </script>
+</body>
+</html>
